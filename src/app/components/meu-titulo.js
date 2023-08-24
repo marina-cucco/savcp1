@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 const Titulo = styled.h1`
     font-size: 24px;
-    color: #ffffff;
-    margin-bottom: 0.5em;
+    color: #000000;
+    margin: 1em 1em 0 1em;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
 `;
