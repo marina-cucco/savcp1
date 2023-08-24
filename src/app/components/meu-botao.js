@@ -11,6 +11,7 @@ font-size: 16px;
 border-radius: 8px;
 border-color: #0046c0;
 cursor: pointer;
+font-family: 'Poppins', sans-serif;
 `;
 
 export default function MeuBotao({ text }) {
