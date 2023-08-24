@@ -6,7 +6,7 @@ background: #0046c0;
 color: #ffffff;
 text-align: center;
 padding: 1.2em 2em;
-margin: 1em;
+margin: 1em 3em;
 font-size: 16px;
 border-radius: 8px;
 border-color: #0046c0;
