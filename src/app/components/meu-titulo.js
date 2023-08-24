@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const Titulo = styled.h1`
     font-size: 24px;
-    color: #000000;
+    color: #ffffff;
     margin-bottom: 0.5em;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
