@@ -10,7 +10,7 @@ text-align: center;
 `;
 
 const Titulo = styled.h2`
-font-size: 40px;
+font-size: 36px;
 font-weight: bold;
 `;
 
