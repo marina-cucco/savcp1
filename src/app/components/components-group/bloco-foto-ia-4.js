@@ -2,7 +2,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const BlocoFotoIA2Container = styled.div`
+const BlocoFotoIA4Container = styled.div`
     display: flex;
     align-items: flex-start;
     margin: 0.5em;
@@ -66,15 +66,15 @@ const ImagemPrincipal = styled.img`
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 `;
 
-export function BlocoFotoIA2({ subtitulo, texto, linkHref, linkTexto, imagemSrc, imagemAlt }) {
+export function BlocoFotoIA4({ subtitulo, texto, linkHref, linkTexto, imagemSrc, imagemAlt }) {
     const formatText = (text) => {
-        const parts = text.split(/(GUIDÃO|PNEU DIANTEIRO)/);
+        const parts = text.split(/(SISTEMA DE TRANSMISSÃO|PNEU TRASEIRO)/);
 
         return parts.map((part, index) => {
-            if (part === 'GUIDÃO') {
-                return <PalavraEmDestaque key={index}>GUIDÃO</PalavraEmDestaque>;
-            } else if (part === 'PNEU DIANTEIRO') {
-                return <PalavraEmDestaqueDois key={index}>PNEU DIANTEIRO</PalavraEmDestaqueDois>;
+            if (part === 'SISTEMA DE TRANSMISSÃO') {
+                return <PalavraEmDestaque key={index}>SISTEMA DE TRANSMISSÃO</PalavraEmDestaque>;
+            } else if (part === 'PNEU TRASEIRO') {
+                return <PalavraEmDestaqueDois key={index}>PNEU TRASEIRO</PalavraEmDestaqueDois>;
             } else {
                 return part;
             }
@@ -82,7 +82,7 @@ export function BlocoFotoIA2({ subtitulo, texto, linkHref, linkTexto, imagemSrc,
     };
 
     return (
-        <BlocoFotoIA2Container>
+        <BlocoFotoIA4Container>
             <TextoContainer>
                 <Subtitulo>{subtitulo}</Subtitulo>
                 <TextoIA>
@@ -95,6 +95,6 @@ export function BlocoFotoIA2({ subtitulo, texto, linkHref, linkTexto, imagemSrc,
                 )}
             </TextoContainer>
             {imagemSrc && imagemAlt && <ImagemPrincipal src={imagemSrc} alt={imagemAlt} />}
-        </BlocoFotoIA2Container>
+        </BlocoFotoIA4Container>
     );
 }

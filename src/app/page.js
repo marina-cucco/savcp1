@@ -6,7 +6,10 @@ import { ImagemPrincipalFotoIA } from "./components/foto-primaria-ia";
 import { TextoFotoIA } from "./components/texto-foto-ai";
 import { BlocoFotoIA1 } from "./components/components-group/bloco-foto-ia-1";
 import { BlocoFotoIA2 } from "./components/components-group/bloco-foto-ia-2";
+import { BlocoFotoIA3 } from "./components/components-group/bloco-foto-ia-3";
+import { BlocoFotoIA4 } from "./components/components-group/bloco-foto-ia-4";
 import Image from "next/image";
+import MeuBotao from "./components/meu-botao";
 
 export default function Home() {
   return (
@@ -34,6 +37,26 @@ export default function Home() {
         imagemSrc="/images/ai-dianteiro.png"
         imagemAlt="Imagem Dianteiro"
     />
+
+      <BlocoFotoIA3
+        subtitulo="FOTO 3"
+        texto="Uma foto do QUADRO da sua Bike"
+        linkHref="#"
+        linkTexto="Anexar Arquivo"
+        imagemSrc="/images/ai-quadro.png"
+        imagemAlt="Imagem Quadro da bicicleta"
+    />
+
+      <BlocoFotoIA4
+        subtitulo="FOTO 3"
+        texto="Uma foto do SISTEMA DE TRANSMISSÃO e do PNEU TRASEIRO da sua Bike"
+        linkHref="#"
+        linkTexto="Anexar Arquivo"
+        imagemSrc="/images/ai-traseiro.png"
+        imagemAlt="Imagem Quadro da bicicleta"
+    />
+
+      <MeuBotao text="Concluir Etapa 1"/>
 
 
 
