@@ -10,11 +10,19 @@ import { BlocoFotoIA3 } from "./components/components-group/bloco-foto-ia-3";
 import { BlocoFotoIA4 } from "./components/components-group/bloco-foto-ia-4";
 import Image from "next/image";
 import MeuBotao from "./components/meu-botao";
+import { TracoAzulTitulo } from "./components/traco-azul-titulo";
+import { TituloTracoAzul } from "./components/components-group/titulo-traco-azul-ia";
 
 export default function Home() {
   return (
     <main>
-      <TituloFotoIA text="Agora vamos lá, hora das fotos!" />
+      <div>
+            <TituloTracoAzul
+                tituloText="Agora vamos lá, hora das fotos!"
+                tracoSrc="/images/pincelada azul.png"
+                tracoAlt="Descrição da Imagem"
+            />
+        </div>
 
       <ParagrafoFotoIA text="Para finalizar a primeira etapa do seu <br />
       Processo de Vistoria, precisamos de 4 <br />
