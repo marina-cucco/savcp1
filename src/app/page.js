@@ -1,21 +1,26 @@
-import TituloFotoIA from "./components/titulo-fotos-ia";
-import { SubtituloFotoIA } from "./components/sub-titulo-ia";
 import { ParagrafoFotoIA } from "./components/paragrafo-ia";
-import { LinkFotoIA } from "./components/link-upload-foto-ia";
-import { ImagemPrincipalFotoIA } from "./components/foto-primaria-ia";
-import { TextoFotoIA } from "./components/texto-foto-ai";
 import { BlocoFotoIA1 } from "./components/components-group/bloco-foto-ia-1";
 import { BlocoFotoIA2 } from "./components/components-group/bloco-foto-ia-2";
 import { BlocoFotoIA3 } from "./components/components-group/bloco-foto-ia-3";
 import { BlocoFotoIA4 } from "./components/components-group/bloco-foto-ia-4";
 import Image from "next/image";
 import MeuBotao from "./components/meu-botao";
-import { TracoAzulTitulo } from "./components/traco-azul-titulo";
 import { TituloTracoAzul } from "./components/components-group/titulo-traco-azul-ia";
+import { LogoHeader } from "./components/components-group/logo-header";
 
 export default function Home() {
   return (
     <main>
+      <div>
+            <LogoHeader
+                srcPorto="images/logoporto (2).png"
+                altPorto="Logo do Porto"
+                srcSav="images/logosav.png"
+                altSav="Logo do Sav"
+            />
+        </div>
+
+
       <div>
             <TituloTracoAzul
                 tituloText="Agora vamos lá, hora das fotos!"
