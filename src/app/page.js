@@ -61,8 +61,8 @@ export default function Home() {
     />
 
       <BlocoFotoIA4
-        subtitulo="FOTO 3"
-        texto="Uma foto do SISTEMA DE TRANSMISSÃO e do PNEU TRASEIRO da sua bike"
+        subtitulo="FOTO 4"
+        texto="Uma foto do SISTEMA DE TRANSMISSÃO e do PNEU TRASEIRO da sua Bike"
         linkHref="#"
         linkTexto="Anexar Arquivo"
         imagemSrc="/images/ai-traseiro.png"
@@ -70,9 +70,6 @@ export default function Home() {
     />
 
       <MeuBotao text="Concluir Etapa 1"/>
-      <MeuBotao text="Botão 2"/>
-
-
 
     </main>
   );
