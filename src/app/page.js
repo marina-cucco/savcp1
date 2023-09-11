@@ -23,19 +23,19 @@ export default function Home() {
 
       <div>
             <TituloTracoAzul
-                tituloText="Agora vamos lá, hora das fotos!"
+                tituloText="Vamos lá: hora das fotos!"
                 tracoSrc="/images/pincelada azul.png"
                 tracoAlt="Descrição da Imagem"
             />
         </div>
 
       <ParagrafoFotoIA text="Para finalizar a primeira etapa do seu <br />
-      Processo de Vistoria, precisamos de 4 <br />
-      fotos específicas da sua Bike." />
+      processo de vistoria, precisamos de 4 <br />
+      fotos específicas da sua bike." />
 
       <BlocoFotoIA1
         subtitulo="FOTO 1"
-        texto="Uma foto do SELIM da sua Bike (banco)"
+        texto="Uma foto do SELIM da sua bike (banco)"
         linkHref="#"
         linkTexto="Anexar Arquivo"
         imagemSrc="/images/ai-banco.png"
@@ -44,7 +44,7 @@ export default function Home() {
 
       <BlocoFotoIA2
         subtitulo="FOTO 2"
-        texto="Uma foto do GUIDÃO e PNEU DIANTEIRO da sua Bike"
+        texto="Uma foto do GUIDÃO e PNEU DIANTEIRO da sua bike"
         linkHref="#"
         linkTexto="Anexar Arquivo"
         imagemSrc="/images/ai-dianteiro.png"
@@ -53,7 +53,7 @@ export default function Home() {
 
       <BlocoFotoIA3
         subtitulo="FOTO 3"
-        texto="Uma foto do QUADRO da sua Bike"
+        texto="Uma foto do QUADRO da sua bike"
         linkHref="#"
         linkTexto="Anexar Arquivo"
         imagemSrc="/images/ai-quadro.png"
@@ -62,7 +62,7 @@ export default function Home() {
 
       <BlocoFotoIA4
         subtitulo="FOTO 3"
-        texto="Uma foto do SISTEMA DE TRANSMISSÃO e do PNEU TRASEIRO da sua Bike"
+        texto="Uma foto do SISTEMA DE TRANSMISSÃO e do PNEU TRASEIRO da sua bike"
         linkHref="#"
         linkTexto="Anexar Arquivo"
         imagemSrc="/images/ai-traseiro.png"
